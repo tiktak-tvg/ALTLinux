@@ -73,6 +73,68 @@ dc01 = DC.COMPANY.LOCAL
 ```
 На сервере
 
-<img width="916" height="377" alt="image" src="https://github.com/user-attachments/assets/05658657-8a0b-47be-b5ab-2e7e59033311" />
+<img width="916" height="377" alt="image" src="https://github.com/user-attachments/assets/05e85eec-b717-45e9-ab26-6532f2c6a3e3" />
 
+Просмотр общей информации о домене:
+```bash
+# samba-tool domain info 127.0.0.1
+Forest           : test.alt
+Domain           : test.alt
+Netbios domain   : TEST
+DC name          : dc1.test.alt
+DC netbios name  : DC
+Server site      : Default-First-Site-Name
+Client site      : Default-First-Site-Name
+```
+Просмотр предоставляемых служб:
+```bash
+# smbclient -L localhost -Uadministrator
+Password for [TEST\administrator]:
 
+	Sharename       Type      Comment
+	---------       ----      -------
+	sysvol          Disk
+	netlogon        Disk
+	IPC$            IPC       IPC Service (Samba 4.21.9-alt1)
+SMB1 disabled -- no workgroup available
+```
+Общие ресурсы netlogon и sysvol создаваемые по умолчанию нужны для функционирования сервера и создаются в smb.conf в процессе развертывания/модернизации.<br>
+Проверка конфигурации DNS:
+
+Убедиться в наличии nameserver 127.0.0.1 в /etc/resolv.conf:
+```bash
+# cat /etc/resolv.conf
+nameserver 127.0.0.1
+search test.alt
+```
+```bash
+# host test.alt
+test.alt has address 192.168.0.132
+test.alt has IPv6 address fd47:d11e:43c1:0:a00:27ff:fe49:2df
+```
+Проверить имена хостов:
+```bash
+# host -t SRV _kerberos._udp.test.alt.
+_kerberos._udp.test.alt has SRV record 0 100 88 dc1.test.alt
+# host -t SRV _ldap._tcp.test.alt.
+_ldap._tcp.test.alt has SRV record 0 100 389 dc1.test.alt.
+# host -t A dc1.test.alt.
+dc1.test.alt has address 192.168.0.132
+```
+> Если имена не находятся, необходимо проверить выключение службы named.
+
+Проверка Kerberos (имя домена должно быть в верхнем регистре):
+```bash
+# kinit administrator@TEST.ALT
+Password for administrator@TEST.ALT:
+```
+Просмотр полученного билета:
+```bash
+# klist
+Ticket cache: FILE:/tmp/krb5cc_0
+Default principal: administrator@TEST.ALT
+
+Valid starting       Expires              Service principal
+19.08.2025 17:13:17  20.08.2025 03:13:17  krbtgt/TEST.ALT@TEST.ALT
+	renew until 20.08.2025 17:13:14
+```
