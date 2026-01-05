@@ -4,7 +4,13 @@
 
 <img width="925" height="482" alt="image" src="https://github.com/user-attachments/assets/f23400f0-f0a8-43f9-8858-995b25aa1bd5" />
 
+<img width="1277" height="767" alt="12" src="https://github.com/user-attachments/assets/02fe0d46-eba7-4275-bddd-b48d221bce98" />
+
+<img width="1275" height="767" alt="13" src="https://github.com/user-attachments/assets/99fd5132-1724-4f25-bc7c-1b29ca7a3af8" />
+
 Отмечаем галочки, что мы будем устанавливать
+
+<img width="1279" height="766" alt="14" src="https://github.com/user-attachments/assets/3b39c80b-0be1-46c8-a813-f37ce8c4f669" />
 
 <img width="1278" height="767" alt="image" src="https://github.com/user-attachments/assets/696059a3-707e-4d59-a3f4-9424f091123c" />
 
