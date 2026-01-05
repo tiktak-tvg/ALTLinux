@@ -73,5 +73,6 @@ dc01 = DC.COMPANY.LOCAL
 ```
 На сервере
 
-<img width="3440" height="1440" alt="image" src="https://github.com/user-attachments/assets/d23b07d5-c2f8-47c5-841d-158629c711f4" />
+<img width="916" height="377" alt="image" src="https://github.com/user-attachments/assets/05658657-8a0b-47be-b5ab-2e7e59033311" />
+
 
