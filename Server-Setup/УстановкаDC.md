@@ -75,6 +75,18 @@ dc01 = DC.COMPANY.LOCAL
 
 <img width="916" height="377" alt="image" src="https://github.com/user-attachments/assets/05e85eec-b717-45e9-ab26-6532f2c6a3e3" />
 
+Для ввода компьютера в Active Directory потребуется установить пакет task-auth-ad-sssd и все его зависимости (если он еще не установлен):
+```bash
+# apt-get install task-auth-ad-sssd
+```
+Синхронизация времени с контроллером домена производится автоматически.
+
+Далее можно взять инструкцию от Альт Линукс и вводдить по ней
+
+https://docs.altlinux.org/ru-RU/alt-server/11.1/html/alt-server/sambadc--chapter.html
+
+https://docs.altlinux.org/ru-RU/alt-domain/11.0/html/alt-domain/index.html
+
 Просмотр общей информации о домене:
 ```bash
 # samba-tool domain info 127.0.0.1
