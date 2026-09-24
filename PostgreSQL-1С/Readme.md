@@ -1,4 +1,5 @@
 ##### Установка и настройка на Alt Linux - Postgresql для 1C
 
-![image](https://github.com/user-attachments/assets/32e95d1b-76ea-4725-b676-1a5341b2d75c)
+<img width="1451" height="1030" alt="image" src="https://github.com/user-attachments/assets/69238523-b7bc-40a0-9dbb-0b58d3b7d027" />
+
 
