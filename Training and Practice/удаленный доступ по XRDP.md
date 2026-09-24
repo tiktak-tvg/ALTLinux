@@ -97,11 +97,11 @@ xfreerdp /drive:Epson,/home/cas/epson /v:10.4.129.129 /u:user /p:123
 
 <img width="575" height="539" alt="image" src="https://github.com/user-attachments/assets/0d06440d-e80c-4a10-91f1-6afb4600f3a4" /><br>
 
-📥 [Xrdp](https://wiki.altlinux.org/Xrdp)
+👻 [Xrdp](https://wiki.altlinux.org/Xrdp)
 
-📥 [Remmina](https://www.altlinux.org/Education_applications/Remmina)
+👻 [Remmina](https://www.altlinux.org/Education_applications/Remmina)
 
-📥 [Remmina](https://www.altlinux.org/Remmina)
+👻 [Remmina](https://www.altlinux.org/Remmina)
 
 📥 [VNC](https://www.altlinux.org/VNC)
 
