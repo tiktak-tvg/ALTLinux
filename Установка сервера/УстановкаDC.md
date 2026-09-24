@@ -2,47 +2,57 @@
 
 Запускаем установку и выбираем Альт Сервер который будем устанавливать
 
-<img width="925" height="482" alt="image" src="https://github.com/user-attachments/assets/f23400f0-f0a8-43f9-8858-995b25aa1bd5" />
+<img width="925" height="482" alt="image" src="https://github.com/user-attachments/assets/994d9dca-7143-440e-8f99-82782ecb598a" />
 
-<img width="1277" height="767" alt="12" src="https://github.com/user-attachments/assets/02fe0d46-eba7-4275-bddd-b48d221bce98" />
 
-<img width="1275" height="767" alt="13" src="https://github.com/user-attachments/assets/99fd5132-1724-4f25-bc7c-1b29ca7a3af8" />
+<img width="1277" height="767" alt="image" src="https://github.com/user-attachments/assets/0697e65c-6462-4b31-b51b-c56db262d0a5" />
+
+
+<img width="1275" height="767" alt="image" src="https://github.com/user-attachments/assets/5b258b54-78f7-43ce-a052-9dc021da0e3b" />
+
 
 Отмечаем галочки, что мы будем устанавливать
 
-<img width="1279" height="766" alt="14" src="https://github.com/user-attachments/assets/3b39c80b-0be1-46c8-a813-f37ce8c4f669" />
+<img width="1279" height="766" alt="image" src="https://github.com/user-attachments/assets/25a9f9de-8da8-4cb5-a55f-d17de823108f" />
 
-<img width="1278" height="767" alt="image" src="https://github.com/user-attachments/assets/696059a3-707e-4d59-a3f4-9424f091123c" />
+<img width="1278" height="767" alt="image" src="https://github.com/user-attachments/assets/93f41f58-407c-41d1-9964-726aca50172d" />
 
-<img width="1278" height="766" alt="image" src="https://github.com/user-attachments/assets/79014f2c-c367-4c28-ba33-d9dc47519915" />
+<img width="1278" height="766" alt="image" src="https://github.com/user-attachments/assets/ebbf785c-91c2-4024-a0f4-d4deafc38744" />
+
 
 В конце установки выбираем диск и по желанию устанавливаем пароль на загрузчик
 
-<img width="1274" height="767" alt="image" src="https://github.com/user-attachments/assets/905be8cc-6149-4c54-a0fa-e28210c81704" />
+<img width="1274" height="767" alt="image" src="https://github.com/user-attachments/assets/90c7c0b2-0e93-4fc4-aaf4-d972e051b863" />
+
 
 Далее, настраиваем статический адрес
 
-<img width="1277" height="767" alt="image" src="https://github.com/user-attachments/assets/009cf203-9969-4ac5-af28-6e81417562f6" />
+<img width="1277" height="767" alt="image" src="https://github.com/user-attachments/assets/b3bcd088-0eed-421c-bc5d-a24fff283bfe" />
+
 
 Устанавливаем пароль локального администратора
 
-<img width="1274" height="767" alt="image" src="https://github.com/user-attachments/assets/e414ed42-1c99-4058-a292-bae469f2eb1b" />
+<img width="1274" height="767" alt="image" src="https://github.com/user-attachments/assets/2be5ea97-a613-47cf-97ee-b5a36cf5df9f" />
+
 
 Создаём дополнительную учетную запись
 
-<img width="1277" height="765" alt="image" src="https://github.com/user-attachments/assets/e418d1bb-894d-4f59-92eb-0ea5e7799c71" />
+<img width="1277" height="765" alt="image" src="https://github.com/user-attachments/assets/a91576dd-4d58-48ab-b0af-e6601d5d687e" />
+
 
 Завершение установки
 
-<img width="1277" height="764" alt="image" src="https://github.com/user-attachments/assets/83c689f3-e4a9-4824-965e-6adedce5a5b6" />
+<img width="1277" height="764" alt="image" src="https://github.com/user-attachments/assets/1b5393e4-450b-40c0-805e-c7698b055e4d" />
+
 
 Заходим на сервер
 
-<img width="910" height="614" alt="image" src="https://github.com/user-attachments/assets/7c7d7afb-e009-4875-916f-fd637689da17" />
+<img width="910" height="614" alt="image" src="https://github.com/user-attachments/assets/f884f18f-8dd1-412a-840d-0a80253b58dd" />
 
-<img width="1281" height="634" alt="image" src="https://github.com/user-attachments/assets/f00153a5-39db-48d7-9413-6a658bf8f2f7" />
+<img width="1281" height="634" alt="image" src="https://github.com/user-attachments/assets/fe92ffd4-736f-4eed-832f-815e0b1e7132" />
 
-<img width="915" height="839" alt="image" src="https://github.com/user-attachments/assets/8b162b29-7ed6-4171-90c1-0f1f8c82fd86" />
+<img width="915" height="839" alt="image" src="https://github.com/user-attachments/assets/1af336ee-b9da-4c8e-8962-39a45c7e8092" />
+
 
 Далее проверка работоспособности домена
 
@@ -79,7 +89,7 @@ dc01 = DC.COMPANY.LOCAL
 ```
 На сервере
 
-<img width="916" height="377" alt="image" src="https://github.com/user-attachments/assets/05e85eec-b717-45e9-ab26-6532f2c6a3e3" />
+<img width="916" height="377" alt="image" src="https://github.com/user-attachments/assets/67a9e667-0dbf-4869-abca-d887061b27b0" />
 
 Для ввода компьютера в Active Directory потребуется установить пакет task-auth-ad-sssd и все его зависимости (если он еще не установлен):
 ```bash
