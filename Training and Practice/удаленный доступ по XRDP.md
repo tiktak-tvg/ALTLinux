@@ -103,6 +103,6 @@ xfreerdp /drive:Epson,/home/cas/epson /v:10.4.129.129 /u:user /p:123
 
 👻 [Remmina](https://www.altlinux.org/Remmina)
 
-📥 [VNC](https://www.altlinux.org/VNC)
+👻 [VNC](https://www.altlinux.org/VNC)
 
 
