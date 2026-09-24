@@ -14,7 +14,7 @@
 
 Лучше предназначенный для работы с 1С:Предприятие 
 
-![image](https://github.com/user-attachments/assets/a60e26d6-17e8-4217-a8d3-81862d1d52ec)
+<img width="808" height="561" alt="image" src="https://github.com/user-attachments/assets/06a936e0-4fcb-420a-8790-7231580374e7" />
 
 Установка PostgreSQL 15-1C-server(15.8-5.1C)
 
