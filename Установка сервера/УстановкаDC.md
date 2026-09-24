@@ -99,9 +99,9 @@ dc01 = DC.COMPANY.LOCAL
 
 Далее можно воспользоваться инструкцией от Альт Линукс, как поднимать контроллер домена.
 
- 📥[Ссылка 1](https://docs.altlinux.org/ru-RU/alt-server/11.1/html/alt-server/sambadc--chapter.html)
+ 👻 [Ссылка 1](https://docs.altlinux.org/ru-RU/alt-server/11.1/html/alt-server/sambadc--chapter.html)
 
- 📥[Ссылка 2](https://docs.altlinux.org/ru-RU/alt-domain/11.0/html/alt-domain/index.html)
+ 👻 [Ссылка 2](https://docs.altlinux.org/ru-RU/alt-domain/11.0/html/alt-domain/index.html)
 
 Просмотр общей информации о домене:
 ```bash
