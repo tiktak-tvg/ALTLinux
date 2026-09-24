@@ -33,11 +33,9 @@
 # fi
 ```
 
-![image](https://github.com/tvgVita69/Linux_begin/assets/98489171/10b8ff5c-16a7-425d-880b-1c6d04d3bbd4)
-
-![image](https://github.com/tvgVita69/Linux_begin/assets/98489171/ada6b271-7a04-4ba4-b7f8-f253f98dd2bd)
-
-![image](https://github.com/tvgVita69/Linux_begin/assets/98489171/2b3860b0-5ca3-4c08-ba2e-54c9e76d8540)
+<img width="675" height="651" alt="image" src="https://github.com/user-attachments/assets/c1892253-7273-4513-9c98-756fc3e7e697" /><br>
+<img width="672" height="484" alt="image" src="https://github.com/user-attachments/assets/382497af-b68a-4a98-ac56-36e667ab3161" /><br>
+<img width="579" height="637" alt="image" src="https://github.com/user-attachments/assets/836650a3-969e-4300-a7f4-b02f808c39a3" /><br>
 
 ```
 lxsession -s LXDE -e LXDE
@@ -67,11 +65,8 @@ lxsession -s LXDE -e LXDE
 ```
 # gpasswd -a user fuse
 ```
-
-![image](https://github.com/tvgVita69/Linux_begin/assets/98489171/7024bb47-530c-4916-a5a0-7418b1d7e146)
-
-![image](https://github.com/tvgVita69/Linux_begin/assets/98489171/e9fae79f-6d2a-48ef-8e16-4fb749298e76)
-
+<img width="490" height="857" alt="image" src="https://github.com/user-attachments/assets/b99232df-07ea-412c-a51d-2d81be72194c" /><br>
+<img width="1054" height="608" alt="image" src="https://github.com/user-attachments/assets/2b2c32ab-0a73-48ac-9b0e-8a00842e718c" /><br>
 Для подключения можно использовать FreeRDP — клиент для подключения к удаленному рабочему столу по протоколу RDP.
 
 Установить пакет xfreerdp:
@@ -100,14 +95,14 @@ xfreerdp /drive:Epson,/home/cas/epson /v:10.4.129.129 /u:user /p:123
 - user — имя терминального пользователя;
 - 123 — пароль терминального пользователя.
 
-![image](https://github.com/tvgVita69/Linux_begin/assets/98489171/12c4092b-76fc-42ee-a98d-6392a306448d)
+<img width="575" height="539" alt="image" src="https://github.com/user-attachments/assets/0d06440d-e80c-4a10-91f1-6afb4600f3a4" /><br>
 
-https://wiki.altlinux.org/Xrdp
+📥 [Xrdp](https://wiki.altlinux.org/Xrdp)
 
-https://www.altlinux.org/Education_applications/Remmina
+📥 [Remmina](https://www.altlinux.org/Education_applications/Remmina)
 
-https://www.altlinux.org/Remmina
+📥 [Remmina](https://www.altlinux.org/Remmina)
 
-https://www.altlinux.org/VNC
+📥 [VNC](https://www.altlinux.org/VNC)
 
 
